@@ -38,7 +38,7 @@ For in-depth debugging of individual events, check out [Laravel Telescope](/docs
 Since Pulse is currently in beta, you will need to explicitly install the beta release:
 
 ```sh
-composer require laravel/pulse:@beta
+composer require laravel/pulse
 ```
 
 Next, you should publish the Pulse configuration and migration files using the `vendor:publish` Artisan command:
